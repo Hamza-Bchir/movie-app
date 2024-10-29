@@ -1,0 +1,6 @@
+<div>
+    <div>
+        <fa-icon [icon] = "faMagnifyingGlass"></fa-icon>
+        <input type="text" placeholder="Search movie" (keyup.backspace) = "getMovieByTitle(title.value)" (keypress) = "getMovieByTitle(title.value)" #title>
+    </div>
+</div>
